@@ -1,0 +1,366 @@
+
+
+body {
+    background-color: none;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
+img.avatar {
+    width: 1170px;
+    border-radius: 780px;   
+    position: relative;
+    left: 500px;
+    top: 0px;
+    opacity: 100%;
+    transform: scale(750px,92px);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5C0426;
+    position: fixed;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+li a:hover {
+    background-color: none;
+}
+
+img.deliver{
+    width: 56px;
+    height: 39.36px;
+}
+
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ .w3-container{
+     background-color: #5C0426;
+    
+}
+
+.pickup{
+    color: white;
+    width: 620px;
+    height: 86px;
+    opacity: 100%;
+    font-family: 'Lato', sans-serif;
+     position: relative;
+     left: 50px;
+}
+
+.h1{
+    color: white;
+    font-family: sans-serif, 'montserrat';
+    width: 503px;
+    height: 183px;
+    bottom: 200px;
+    opacity: 100%;
+    font-weight: bolder;
+     position: relative;
+     left: 50px;
+    
+}
+
+.now{
+    color:yellow;
+    font-family: sans-serif, 'montserrat';
+    width: 245px;
+    height: 22px;
+    opacity: 100%;
+    font-weight: 400; 
+    
+}
+
+.google{
+    width: 268.69px;
+    height: 80.15px;
+    opacity: 100%;
+}
+
+#play{
+        transform: scale(350px,650px);
+    position: relative;
+    top: 50px;
+}
+
+#badge{
+        transform: scale(887px,2401px);
+    position: relative;
+    top: 50px;
+}
+
+img.spectra{
+    width: 205.08px;
+    height: 98.82px;
+    transform: scale(350px,958.18px);
+    opacity: 100%;
+    position: relative;
+    top: 25px;
+}
+
+img.buka{
+    width: 268.69px;
+    height: 80.15px;
+    transform: scale(692px,958.83px);
+    opacity: 100%;
+    position: relative;
+    top: 25px;
+}
+
+img.mega{
+    width: 111.57px;
+    height: 82.88px;
+    transform: scale(936px,961.15px);
+    opacity: 100%;
+    position: relative;
+    top: 25px;
+}
+
+img.fuud{
+    width: 89.13px;
+    height: 89.13px;
+    transform: scale(1184px,954.83px);
+    opacity: 100%;
+    position: relative;
+    top: 25px;
+}
+
+img.place{
+    width: 159.96px;
+    height: 78.92px;
+    transform: scale(1410px,958.18px);
+    opacity: 100%;
+    position: relative;
+    top: 25px;
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #676768;
+    font-weight: normal;     
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#first-section{
+    background-color: black;
+    color: white;
+    width: 1920px;
+    height: 589px;
+    transform: scaleY(2005px);
+    opacity: 100%;
+}
+
+#second-section{
+    background-color: none;
+}
+
+#last-section{
+    background-color: #121212;
+    color: white;
+    width: 1920px;
+    height: 670px;
+    transform: scaleY(5766px);
+    opacity: 100%;
+}
+
+.burger{
+    /*change alignment*/
+    float: right;
+    height: 558px;
+    opacity: 100%;
+    position: relative;
+    top: -50px;
+}
+
+.one{
+    float: left;
+    height: 558px;
+    opacity: 100%;
+    position: relative;
+}
+
+.trust{
+    color:#676768;
+    font-family: sans-serif, 'montserrat';
+    width: 127px;
+    height: 22px;
+    transform: scale(897px,905px);
+    text-align: left;
+    opacity: 100%;
+    font-weight: 900; 
+    font-size: 18px;    
+}
+
+.demand{
+    color:#5C0426;
+    font-family: 'Roboto Slab', serif;
+    width: 454px;
+    height: 100px;
+    transform: scale(733px,1125px);
+    text-align: center;
+    opacity: 100%;
+    font-weight: normal; 
+    font-size: 38px;
+}
+
+.enjoy{
+    color:#676768;
+    font-family: 'Lato', sans-serif;
+    width: 993px;
+    height: 53px;
+    transform: scale(464px,1233px);
+    text-align: center;
+    opacity: 100%;
+    font-weight: normal; 
+    font-size: 18px;
+}
+    
+.download{
+    color:white;
+    font-family: sans-serif, 'montserrat';
+    width: 619.8px;
+    height: 118.03px;
+    transform: scale(887px,2250px);
+    text-align: left;
+    opacity: 100%;
+    font-weight: 500; 
+    font-size: 18px;
+    position: relative;
+    top: 0px;
+}
+
+.size{
+    color:#5C0426;
+    font-family: 'Roboto Slab', serif;
+    width: 330px;
+    height: 50px;
+    transform: scale(795px,2655px);
+    text-align: center;
+    opacity: 100%;
+    font-weight: normal; 
+    font-size: 38px;
+}
+
+.vehicles{
+    color:#676768;
+    font-family: 'Lato', sans-serif;
+    width: 993px;
+    height: 53px;
+    transform: scale(464px,2740px);
+    text-align: center;
+    opacity: 100%;
+    font-weight: normal; 
+    font-size: 18px;
+}
+
+img.tgb{
+    width: 378px;
+    height: 315px;
+    transform: scale(350px,2785px);
+    opacity: 100%;
+    position: relative;
+}
+
+img.toyota{
+    width: 460px;
+    height: 336px;
+    transform: scale(730px,2810px);
+    opacity: 100%;
+    position: relative;
+}
+
+img.ford{
+    width: 369px;
+    height: 258px;
+    transform: scale(1201px,2856px);
+    opacity: 100%;
+    position: relative;
+}
+
+#third-section{
+    background-image: url('assets/Mask Group 52.png');
+}
+
+.map{
+    transform: scale(379.63px,3215px);
+    opacity: 100%;
+}
+
+img.logo{
+    width: 189px;
+    height: 64px;
+    transform: scale(350px,6074.38px);
+    opacity: 100%;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+#en{
+    transform: scale(1301.31px,5964px);
+    position: relative;
+    top: 200px;
+    left: 1000px;
+
+}
